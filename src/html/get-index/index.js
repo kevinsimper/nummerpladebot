@@ -1,7 +1,6 @@
 var arc = require('@architect/functions')
 
 function route(req, res) {
-
   console.log(JSON.stringify(req, null, 2))
 
   let expectedToken = 'sam'
@@ -14,10 +13,8 @@ function route(req, res) {
     req.query['hub.verify_token']
   ) {
     if (req.query['hub.verify_token'] === expectedToken) {
-      // console.log(req.query['hub.challenge'])
-      // res(req.query['hub.challenge'])
       res({
-        json: req.query['hub.challenge']
+        html: req.query['hub.challenge']
       })
       return
     } else {
@@ -34,4 +31,4 @@ function route(req, res) {
   })
 }
 
-exports.handler = arc.json.get(route)
+exports.handler = arc.html.get(route)

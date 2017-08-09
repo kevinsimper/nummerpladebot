@@ -1,5 +1,5 @@
 @app
 nummerpladebot
 
-@endpoint
+@json
 get /

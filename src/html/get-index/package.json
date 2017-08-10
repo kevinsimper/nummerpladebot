@@ -1,0 +1,6 @@
+{
+  "name": "nummerpladebot-get-index",
+  "dependencies": {
+    "@architect/functions": "^1.3.0"
+  }
+}

@@ -1,0 +1,5 @@
+@app
+nummerpladebot
+
+@html
+get /

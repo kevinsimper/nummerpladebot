@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "create": "AWS_PROFILE=lambda-play AWS_REGION=us-west-1 arc-create",
     "deploy": "AWS_PROFILE=lambda-play AWS_REGION=us-west-1 arc-deploy",
     "start": "AWS_PROFILE=lambda-play AWS_REGION=us-west-1 NODE_ENV=testing arc-sandbox"
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/kevinsimper/nummerpladebot#readme",
   "dependencies": {
-    "@architect/workflows": "^1.0.20"
+    "@architect/workflows": "^1.0.20",
+    "jest": "^20.0.4"
   }
 }

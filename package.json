@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/kevinsimper/nummerpladebot#readme",
   "dependencies": {
+    "openalpr_api": "^2.0.1",
     "@architect/workflows": "^1.0.20",
     "jest": "^20.0.4"
   }

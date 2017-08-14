@@ -1,0 +1,6 @@
+{
+  "name": "nummerpladebot-post-webhook",
+  "dependencies": {
+    "@architect/functions": "^1.3.0"
+  }
+}

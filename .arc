@@ -3,7 +3,7 @@ nummerpladebot
 
 @html
 get /
+get /webhook
 
 @json
-get /webhook
 post /webhook

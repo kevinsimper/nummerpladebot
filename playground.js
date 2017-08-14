@@ -1,6 +1,6 @@
 let request = require('request')
 
-let sPrivateKey = 'sk_0a2851329cb9cd8d530e135f'
+let sPrivateKey = 'SECRET_KEY'
 
 /*
 request(
@@ -26,11 +26,8 @@ var secretKey = sPrivateKey
 var country = 'eu'
 
 var opts = { 
-  'recognizeVehicle': 0, // {Integer} If set to 1, the vehicle will also be recognized in the image This requires an additional credit per request 
-  'state': "", // {String} Corresponds to a US state or EU country code used by OpenALPR pattern  recognition.  For example, using \"md\" matches US plates against the  Maryland plate patterns.  Using \"fr\" matches European plates against  the French plate patterns. 
-  'returnImage': 0, // {Integer} If set to 1, the image you uploaded will be encoded in base64 and  sent back along with the response 
-  'topn': 10, // {Integer} The number of results you would like to be returned for plate  candidates and vehicle classifications 
-  'prewarp': "" // {String} Prewarp configuration is used to calibrate the analyses for the  angle of a particular camera.  More information is available here http://doc.openalpr.com/accuracy_improvements.html#calibration 
+  /*'state': 'dk', */
+  'topn': 1, // {max num of results (incase there are multiple cars in the pic) - using 1, we're only interested in the best match
 };
 
 var callback = function(error, data, response) {

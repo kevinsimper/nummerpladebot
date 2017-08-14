@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kevinsimper/nummerpladebot/issues"
   },
-  "homepage": "https://github.com/kevinsimper/nummerpladebot#readme"
+  "homepage": "https://github.com/kevinsimper/nummerpladebot#readme",
+  "dependencies": {
+    "openalpr_api": "^2.0.1"
+  }
 }

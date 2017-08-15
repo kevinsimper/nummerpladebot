@@ -1,0 +1,288 @@
+{
+  "TekniskData": {
+    "RegNr": "AB44887",
+    "StelNr": "VF1CNJ10547695625",
+    "Status": "Registreret",
+    "FoersteRegistreringDato": "2012-09-28T00:00:00+02:00",
+    "LeasingGyldigFra": null,
+    "LeasingGyldigTil": null,
+    "LeasingPeriode": null,
+    "FoersteRegistreringDatoFormateret": "28. september 2012",
+    "KoeretoejArtNavn": "Personbil",
+    "KoeretoejAnvendelseNavn": "Privat personkørsel",
+    "TotalVaegt": 1360,
+    "EgenVaegt": null,
+    "VogntogVaegt": 1710,
+    "KoereklarVaegtMinimum": 1043,
+    "TekniskTotalVaegt": 1360,
+    "PaahaengVognTotalVaegt": null,
+    "AkselAntal": 2,
+    "SiddepladserMinimum": 4,
+    "Tilkoblingsmulighed": true,
+    "TilkoblingsvaegtUdenBremser": 350,
+    "TilkoblingsvaegtMedBremser": 550,
+    "NCAPTest": false,
+    "MaerkeTypeNavn": "RENAULT",
+    "ModelTypeNavn": "TWINGO",
+    "VariantTypeNavn": "1.2 16V",
+    "FarveTypeNavn": "Hvid",
+    "ModelAar": "2012",
+    "KarrosseriTypeNavn": "Hatchback",
+    "MotorSlagVolumen": 1149.0,
+    "MotorStoerrelse": 1.1,
+    "MotorStoersteEffekt": 55.0,
+    "MotorHestekraefter": 75,
+    "MotorKmPerLiter": 22.2,
+    "MotorKilometerstand": 99,
+    "MotorElektriskForbrug": null,
+    "DrivkraftTypeNavn": "Benzin",
+    "KoeretoejUdstyrSamling": [
+      "ABS bremser",
+      "radio",
+      "ESP (Elektronisk Stabiliserings Program)",
+      "integreret barnesæde",
+      "selealarm",
+      "Airbags",
+      "Cruise control",
+      " Reservehjul",
+      " El-ruder for",
+      " 3-punktsseler ved alle sæder",
+      " ABS-bremser",
+      " BAS",
+      " Fjernbetjent centrallås",
+      " Førerairbag",
+      " Passagerairbag",
+      " ESP m. ASR",
+      " Tågeforlygter",
+      " Højdejusterbart førersæde",
+      " Nakkestøtter ved alle sæder",
+      " Selealarm",
+      " Sideairbags for",
+      " Gardinairbags for og bag",
+      " Tonede ruder",
+      " Bagrude m. varme",
+      " Elektronisk startspærre",
+      " EBV",
+      " Omdrejningstæller",
+      " 12V stik i midterkonsol",
+      " 14\" stålfælge",
+      " Automatisk sikkerhedslåsning af døre",
+      " Automatisk lygtetænding (kørelys)",
+      " Intelligent bagrudeviske"
+    ],
+    "MotorMaerkning": "D4F E7",
+    "MaksimumHastighed": 169,
+    "MotorCylinderAntal": 4,
+    "AntalDoere": 2,
+    "FaelgDaek": "1. aksel: 175/65 R14 (82)T, 5.50 J 14 - 29 (*). 2. aksel: 175/65 R14 (82)T, 5.50 J 14 - 29 (*)",
+    "SporviddenForrest": 1400,
+    "SporviddenBagest": 1400,
+    "StelNummerAnbringelse": "På travers, under højre forsæde",
+    "PassagerAntal": 0,
+    "TraekkendeAksler": "1",
+    "AkselAfstand": 2367,
+    "StoersteAkselTryk": 810,
+    "MiljoeOplysningCO2Udslip": 105.0,
+    "MiljoeOplysningEmissionCO": 300.9,
+    "MiljoeOplysningEmissionHCPlusNOX": 0.0,
+    "MiljoeOplysningEmissionNOX": 28.7,
+    "MiljoeOplysningPartikelFilter": false,
+    "MiljoeOplysningRoegtaethed": null,
+    "MiljoeOplysningRoegtaethedOmdrejningstal": 0,
+    "MiljoeOplysningPartikler": null,
+    "MotorKoerselStoej": 71.4,
+    "MotorStandStoej": 85.0,
+    "MotorStandStoejOmdrejningstal": 3750,
+    "NormTypeNavn": "Euro V"
+  },
+  "Motorregisteret": {
+    "Afgift": {
+      "OpkraevedeAfgifter": [
+        {
+          "RegNr": "AB44887",
+          "AfgiftType": "Grøn Ejerafgift",
+          "Opgjort": "01-08-2017",
+          "DaekkerFra": "01-08-2017",
+          "DaekkerTil": "31-01-2018",
+          "Pris": "310,00 kr.",
+          "Fordret": "Ja"
+        },
+        {
+          "RegNr": "AB44887",
+          "AfgiftType": "Grøn Ejerafgift",
+          "Opgjort": "01-02-2017",
+          "DaekkerFra": "01-02-2017",
+          "DaekkerTil": "31-07-2017",
+          "Pris": "310,00 kr.",
+          "Fordret": "Ja"
+        },
+        {
+          "RegNr": "AB44887",
+          "AfgiftType": "Grøn Ejerafgift",
+          "Opgjort": "01-08-2016",
+          "DaekkerFra": "01-08-2016",
+          "DaekkerTil": "31-01-2017",
+          "Pris": "310,00 kr.",
+          "Fordret": "Ja"
+        },
+        {
+          "RegNr": "AB44887",
+          "AfgiftType": "Grøn Ejerafgift",
+          "Opgjort": "01-02-2016",
+          "DaekkerFra": "01-02-2016",
+          "DaekkerTil": "31-07-2016",
+          "Pris": "310,00 kr.",
+          "Fordret": "Ja"
+        },
+        {
+          "RegNr": "AB44887",
+          "AfgiftType": "Grøn Ejerafgift",
+          "Opgjort": "26-08-2015",
+          "DaekkerFra": "26-08-2015",
+          "DaekkerTil": "31-01-2016",
+          "Pris": "266,94 kr.",
+          "Fordret": "Ja"
+        },
+        {
+          "RegNr": "AB44887",
+          "AfgiftType": "Refusion - Grøn Ejerafgift",
+          "Opgjort": "26-08-2015",
+          "DaekkerFra": "26-08-2015",
+          "DaekkerTil": "31-08-2015",
+          "Pris": "-8,61 kr.",
+          "Fordret": "Ja"
+        },
+        {
+          "RegNr": "AB44887",
+          "AfgiftType": "Grøn Ejerafgift",
+          "Opgjort": "01-03-2015",
+          "DaekkerFra": "01-03-2015",
+          "DaekkerTil": "31-08-2015",
+          "Pris": "310,00 kr.",
+          "Fordret": "Ja"
+        },
+        {
+          "RegNr": "AB44887",
+          "AfgiftType": "Grøn Ejerafgift",
+          "Opgjort": "01-09-2014",
+          "DaekkerFra": "01-09-2014",
+          "DaekkerTil": "28-02-2015",
+          "Pris": "290,00 kr.",
+          "Fordret": "Ja"
+        },
+        {
+          "RegNr": "AB44887",
+          "AfgiftType": "Grøn Ejerafgift",
+          "Opgjort": "01-03-2014",
+          "DaekkerFra": "01-03-2014",
+          "DaekkerTil": "31-08-2014",
+          "Pris": "290,00 kr.",
+          "Fordret": "Ja"
+        },
+        {
+          "RegNr": "AB44887",
+          "AfgiftType": "Grøn Ejerafgift",
+          "Opgjort": "01-09-2013",
+          "DaekkerFra": "01-09-2013",
+          "DaekkerTil": "28-02-2014",
+          "Pris": "290,00 kr.",
+          "Fordret": "Ja"
+        },
+        {
+          "RegNr": "AB44887",
+          "AfgiftType": "Grøn Ejerafgift",
+          "Opgjort": "01-03-2013",
+          "DaekkerFra": "01-03-2013",
+          "DaekkerTil": "31-08-2013",
+          "Pris": "290,00 kr.",
+          "Fordret": "Ja"
+        },
+        {
+          "RegNr": "AB44887",
+          "AfgiftType": "Grøn Ejerafgift",
+          "Opgjort": "28-09-2012",
+          "DaekkerFra": "28-09-2012",
+          "DaekkerTil": "28-02-2013",
+          "Pris": "238,00 kr.",
+          "Fordret": "Ja"
+        }
+      ],
+      "AfgiftDetaljer": [
+        {
+          "AfgiftType": "Grøn Ejerafgift",
+          "Hyppighed": "Halvårlig",
+          "Pris": "310,00 kr."
+        },
+        { "AfgiftType": "Sum", "Hyppighed": "-", "Pris": "310,00 kr." }
+      ]
+    },
+    "Forsikring": {
+      "Selskab": "Danske Forsikring",
+      "Status": "Aktiv",
+      "Oprettet": "26-08-2015"
+    },
+    "NaesteSyn": "2019-08-29T00:00:00",
+    "NaesteSynFormateret": "29. august 2019",
+    "SidsteSyn": "2017-08-02T00:00:00",
+    "SidsteSynFormateret": "02. august 2017",
+    "OverskredetSyn": false,
+    "Tid": "00:00:04.4984659",
+    "TekniskData": {
+      "MiljoeOplysningPartikelFilter": false,
+      "Tilkoblingsmulighed": true
+    },
+    "BilenErLeaset": false
+  },
+  "Tinglysningen": {
+    "LaaneDokumenter": [],
+    "Aar": "",
+    "Tid": "00:00:00.2650713"
+  },
+  "Trafikstyrelsen": {
+    "Rapporter": [
+      {
+        "Firma": "Applus Danmark A/S",
+        "Cvr": "28312725",
+        "Adresse": "Søndergade  244, 9900 Frederikshavn",
+        "PostNr": null,
+        "Synstype": "Første syn",
+        "RegNr": "AB44887",
+        "Synsresultat": "Godkendt",
+        "Synsdato": "02-08-2017",
+        "KmstandFormateret": "99.000",
+        "Kmstand": 99000,
+        "Fejl": []
+      },
+      {
+        "Firma": "Midtjysk Bilsyn ApS",
+        "Cvr": "28512546",
+        "Adresse": "Siriusvej 5, 7430 Ikast",
+        "PostNr": null,
+        "Synstype": "Første syn",
+        "RegNr": "AB44887",
+        "Synsresultat": "Godkendt",
+        "Synsdato": "24-08-2015",
+        "KmstandFormateret": "85.000",
+        "Kmstand": 85000,
+        "Fejl": []
+      },
+      {
+        "Firma": "Als Bilsyn",
+        "Cvr": "28396813",
+        "Adresse": "Smedevænget 4, 6430 Nordborg",
+        "PostNr": null,
+        "Synstype": "Første syn",
+        "RegNr": "AB44887",
+        "Synsresultat": "Godkendt",
+        "Synsdato": "17-07-2014",
+        "KmstandFormateret": "57.000",
+        "Kmstand": 57000,
+        "Fejl": []
+      }
+    ],
+    "MistaenkeligtKmStand": false,
+    "SenesteRegNr": "AB44887",
+    "Tid": "00:00:00.7450709"
+  },
+  "Politiet": { "PoliceWantedStatus": 1, "Tid": "00:00:00.4251056" }
+}

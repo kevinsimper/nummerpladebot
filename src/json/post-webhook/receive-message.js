@@ -1,5 +1,6 @@
 var sendTextMessage = require('./send-text')
 var openalpr = require('./openalpr')
+var processImage = require('./process-images')
 
 function receivedMessage(event) {
   var senderID = event.sender.id
@@ -29,21 +30,16 @@ function receivedMessage(event) {
         break
 
       default:
-        sendTextMessage(senderID, 'Hi, submit a picture that you want to analyze for a licenseplate!')
+        sendTextMessage(
+          senderID,
+          'Hi, submit a picture that you want to analyze for a licenseplate!'
+        )
     }
   } else if (messageAttachments) {
     sendTextMessage(senderID, 'Analyzing picture')
     message.attachments.forEach(item => {
-      if(item.type === 'image') {
-        openalpr(item.payload.url, (err, result) => {
-          console.log(typeof result)
-          if(result.results.length === 0) {
-            sendTextMessage(senderID, '0 cars found!')
-          }
-          result.results.forEach(item => {
-            sendTextMessage(senderID, `Found car ${item.plate}, ${item.confidence} % sure!`)
-          })
-        })
+      if (item.type === 'image') {
+        processImage(senderID, item)
       }
     })
   }

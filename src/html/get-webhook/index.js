@@ -9,7 +9,8 @@ function route(req, res) {
   } else {
     console.error("Failed validation. Make sure the validation tokens match.");
     res({
-      status: 403
+      status: 403,
+      html: "Failed validation!"
     });
   }
 }

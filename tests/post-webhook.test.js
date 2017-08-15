@@ -39,7 +39,7 @@ test('verify webhook', done => {
   http.post(
     { url: 'http://localhost:3333/webhook', data: examplepost },
     (err, res) => {
-      expect(res.body).toEqual({"status": "received"})
+      expect(res.body).toEqual({ status: 'received' })
       done()
     }
   )

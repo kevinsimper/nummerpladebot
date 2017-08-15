@@ -1,34 +1,51 @@
 var sendTextMessage = require('./send-text')
+var openalpr = require('./openalpr')
 
 function receivedMessage(event) {
-  var senderID = event.sender.id;
-  var recipientID = event.recipient.id;
-  var timeOfMessage = event.timestamp;
-  var message = event.message;
+  var senderID = event.sender.id
+  var recipientID = event.recipient.id
+  var timeOfMessage = event.timestamp
+  var message = event.message
 
-  console.log("Received message for user %d and page %d at %d with message:",
-    senderID, recipientID, timeOfMessage);
-  console.log(JSON.stringify(message));
+  console.log(
+    'Received message for user %d and page %d at %d with message:',
+    senderID,
+    recipientID,
+    timeOfMessage
+  )
+  console.log(JSON.stringify(message))
 
-  var messageId = message.mid;
+  var messageId = message.mid
 
-  var messageText = message.text;
-  var messageAttachments = message.attachments;
+  var messageText = message.text
+  var messageAttachments = message.attachments
 
   if (messageText) {
-
     // If we receive a text message, check to see if it matches a keyword
     // and send back the example. Otherwise, just echo the text we received.
     switch (messageText) {
       case 'generic':
-        sendGenericMessage(senderID);
-        break;
+        sendGenericMessage(senderID)
+        break
 
       default:
-        sendTextMessage(senderID, messageText);
+        sendTextMessage(senderID, 'Hi, submit a picture that you want to analyze for a licenseplate!')
     }
   } else if (messageAttachments) {
-    sendTextMessage(senderID, "Message with attachment received");
+    sendTextMessage(senderID, 'Analyzing picture')
+    message.attachments.forEach(item => {
+      if(item.type === 'image') {
+        openalpr(item.payload.url, (err, result) => {
+          console.log(typeof result)
+          if(result.results.length === 0) {
+            sendTextMessage(senderID, '0 cars found!')
+          }
+          result.results.forEach(item => {
+            sendTextMessage(senderID, `Found car ${item.plate}, ${item.confidence} % sure!`)
+          })
+        })
+      }
+    })
   }
 }
 

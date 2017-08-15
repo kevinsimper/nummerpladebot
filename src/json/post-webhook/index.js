@@ -1,18 +1,5 @@
 var arc = require('@architect/functions')
-var callSendAPI = require('./send-api')
-
-function sendTextMessage(recipientId, messageText) {
-  var messageData = {
-    recipient: {
-      id: recipientId
-    },
-    message: {
-      text: messageText
-    }
-  };
-
-  callSendAPI(messageData);
-}
+var sendTextMessage = require('./send-text')
 
 function receivedMessage(event) {
   var senderID = event.sender.id;

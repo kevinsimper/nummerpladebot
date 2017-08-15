@@ -11,9 +11,7 @@ test('that we can start local server', done => {
 })
 
 test('verify webhook', done => {
-  console.log('verify')
   http.get({url: 'http://localhost:3333/webhook?hub.mode=subscribe&hub.challenge=2074033603&hub.verify_token=kevin'}, (err, res) => {
-    console.log(err)
     expect(res.body).toBe('2074033603')
     done()
   })

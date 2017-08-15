@@ -1,0 +1,67 @@
+{
+  "uuid": "",
+  "data_type": "alpr_results",
+  "epoch_time": 1502833304654,
+  "processing_time": {
+    "plates": 260.762787,
+    "total": 268.32600000000184
+  },
+  "img_height": 480,
+  "img_width": 853,
+  "results": [
+    {
+      "plate": "BN36420",
+      "confidence": 94.999832,
+      "region_confidence": 0,
+      "vehicle_region": {
+        "y": 31,
+        "x": 363,
+        "height": 224,
+        "width": 224
+      },
+      "region": "",
+      "plate_index": 0,
+      "processing_time_ms": 97.851082,
+      "candidates": [
+        {
+          "matches_template": 0,
+          "plate": "BN36420",
+          "confidence": 94.999832
+        }
+      ],
+      "coordinates": [
+        {
+          "y": 173,
+          "x": 440
+        },
+        {
+          "y": 170,
+          "x": 509
+        },
+        {
+          "y": 186,
+          "x": 509
+        },
+        {
+          "y": 189,
+          "x": 441
+        }
+      ],
+      "matches_template": 0,
+      "requested_topn": 10
+    }
+  ],
+  "credits_monthly_used": 7,
+  "version": 2,
+  "credits_monthly_total": 1500,
+  "error": false,
+  "regions_of_interest": [
+    {
+      "y": 0,
+      "x": 0,
+      "height": 480,
+      "width": 853
+    }
+  ],
+  "credit_cost": 1
+}

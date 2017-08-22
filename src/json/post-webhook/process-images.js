@@ -13,6 +13,7 @@ module.exports = function (senderID, item) {
       lookup(item.plate, (err, data) => {
         console.log(data)
         sendTextMessage(senderID, `Dug up the VIN also, ${data.TekniskData.StelNr}`)
+        sendTextMessage(senderID, `It is a ${data.TekniskData.MaerkeTypeNavn} ${data.TekniskData.ModelTypeNavn} ${data.TekniskData.VariantTypeNavn} and vehicle inspection at ${data.Motorregisteret.NaesteSynFormateret}`)
       })
     })
   })
